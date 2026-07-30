@@ -1,3 +1,3 @@
 ItemEvents.modifyTooltips(event => {
-    event.add('minecraft:diamond', ['狗修金']);
+    event.add('minecraft:diamond', ['轻松绷住']);
 })
