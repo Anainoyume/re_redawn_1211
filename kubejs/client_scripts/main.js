@@ -1,3 +1,3 @@
-// Visit the wiki for more info - https://kubejs.com/
-console.info('Hello, World! (Loaded client example script)')
-
+ItemEvents.modifyTooltips(event => {
+    event.add('minecraft:diamond', ['这是一个钻石！']);
+})

@@ -37,6 +37,10 @@
 /saves/test/level.dat_old
 /saves/test/session.lock
 
+/config/jei/world/local
+/config/worldedit
+lsp.json
+
 
 1.21.1-NeoForge_21.1.241_redawn.json
 command_history.txt
