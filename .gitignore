@@ -37,8 +37,11 @@
 /saves/test/level.dat_old
 /saves/test/session.lock
 
+/config/ftbquests/
 /config/jei/world/local
 /config/worldedit
+/config/worldedit/worldedit.properties
+/config/jei/ingredient-list-mod-sort-order.ini
 lsp.json
 
 
