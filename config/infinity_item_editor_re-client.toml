@@ -1,0 +1,19 @@
+#Item editor UI mode. LEGACY keeps the original editor layout. SIDEBAR enables the redesigned sidebar layout.
+#Allowed Values: LEGACY, SIDEBAR
+itemGuiMode = "LEGACY"
+#Whether the Infinity Void creative tab is shown.
+voidTab = true
+#Whether newly discovered Infinity Void entries should notify the player.
+voidAddNotification = false
+#Whether player heads should be hidden from the Infinity Void tab.
+voidTabHideHeads = false
+#Whether the unavailable-items creative tab is shown.
+unavailableTab = true
+#Whether the banner helper creative tab is shown.
+bannerTab = true
+#Whether the head helper creative tab is shown.
+headTab = true
+#Whether the thief creative tab is shown.
+thiefTab = true
+#Whether the firework helper creative tab is shown.
+fireworkTab = true

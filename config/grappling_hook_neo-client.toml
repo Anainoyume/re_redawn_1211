@@ -1,0 +1,41 @@
+#Client-side camera effects.
+[camera]
+	#Camera roll angle while wallrunning.
+	# Default: 10.0
+	# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	wallrun_camera_tilt_degrees = 10.0
+	#Duration for wallrun camera tilt animation in seconds.
+	# Default: 0.5
+	# Range: 0.0 ~ 1.7976931348623157E308
+	wallrun_camera_animation_s = 0.5
+
+#Client-side sound volume controls.
+[sounds]
+	#Minimum interval between wallrun footstep sounds in seconds.
+	# Default: 0.35
+	# Range: 0.0 ~ 1.7976931348623157E308
+	wallrun_sound_effect_time_s = 0.35
+	#Wallrun footstep volume.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	wallrun_sound_volume = 1.0
+	#Double-jump sound volume.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	doublejump_sound_volume = 1.0
+	#Slide sound volume.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	slide_sound_volume = 1.0
+	#Wallrun-jump sound volume.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	wallrunjump_sound_volume = 1.0
+	#Rocket sound volume.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	rocket_sound_volume = 1.0
+	#Ender staff sound volume.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.7976931348623157E308
+	enderstaff_sound_volume = 1.0

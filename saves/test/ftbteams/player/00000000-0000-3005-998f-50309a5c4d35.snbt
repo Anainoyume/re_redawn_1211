@@ -1,0 +1,19 @@
+{
+	id: "00000000-0000-3005-998f-50309a5c4d35"
+	type: "player"
+	player_name: "kukka"
+	ranks: {
+		00000000-0000-3005-998f-50309a5c4d35: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "kukka"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FF59FC"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+		"ftbteams:team_stages": [ ]
+		"ftbteams:lives_remaining": 0
+	}
+	message_history: [ ]
+	extra: { }
+}

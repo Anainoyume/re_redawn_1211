@@ -1,0 +1,717 @@
+#Settings for grappling hook behavior.
+[grapplinghook]
+
+	#Options used by grappling hook modifier upgrades.
+	[grapplinghook.custom]
+
+		#Rope customization options.
+		[grapplinghook.custom.rope]
+
+			[grapplinghook.custom.rope.maxlen]
+				#Value used when creating a new non-modified grappling hook.
+				# Default: 30.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				default_value = 30.0
+				#Whether this value can be changed in the grappling hook modifier: 0 = always enabled, 1 = enabled after limits upgrade, 2 = always disabled.
+				# Default: 0
+				# Range: 0 ~ 2
+				enabled = 0
+				#Maximum value in the grappling hook modifier before the limits upgrade.
+				# Default: 60.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				max = 60.0
+				#Maximum value in the grappling hook modifier after the limits upgrade.
+				# Default: 200.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				max_upgraded = 200.0
+				#Minimum value in the grappling hook modifier before the limits upgrade.
+				# Default: 0.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				min = 0.0
+				#Minimum value in the grappling hook modifier after the limits upgrade.
+				# Default: 0.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				min_upgraded = 0.0
+
+			[grapplinghook.custom.rope.phaserope]
+				#Value used when creating a new non-modified grappling hook.
+				default_value = false
+				#Whether this value can be changed in the grappling hook modifier: 0 = always enabled, 1 = enabled after limits upgrade, 2 = always disabled.
+				# Default: 0
+				# Range: 0 ~ 2
+				enabled = 0
+
+			[grapplinghook.custom.rope.sticky]
+				#Value used when creating a new non-modified grappling hook.
+				default_value = false
+				#Whether this value can be changed in the grappling hook modifier: 0 = always enabled, 1 = enabled after limits upgrade, 2 = always disabled.
+				# Default: 0
+				# Range: 0 ~ 2
+				enabled = 0
+
+		#Hook throw and reel behavior.
+		[grapplinghook.custom.hookthrower]
+
+			[grapplinghook.custom.hookthrower.hookgravity]
+				#Value used when creating a new non-modified grappling hook.
+				# Default: 1.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				default_value = 1.0
+				#Whether this value can be changed in the grappling hook modifier: 0 = always enabled, 1 = enabled after limits upgrade, 2 = always disabled.
+				# Default: 0
+				# Range: 0 ~ 2
+				enabled = 0
+				#Maximum value in the grappling hook modifier before the limits upgrade.
+				# Default: 100.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				max = 100.0
+				#Maximum value in the grappling hook modifier after the limits upgrade.
+				# Default: 100.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				max_upgraded = 100.0
+				#Minimum value in the grappling hook modifier before the limits upgrade.
+				# Default: 1.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				min = 1.0
+				#Minimum value in the grappling hook modifier after the limits upgrade.
+				# Default: 0.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				min_upgraded = 0.0
+
+			[grapplinghook.custom.hookthrower.throwspeed]
+				#Value used when creating a new non-modified grappling hook.
+				# Default: 2.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				default_value = 2.0
+				#Whether this value can be changed in the grappling hook modifier: 0 = always enabled, 1 = enabled after limits upgrade, 2 = always disabled.
+				# Default: 0
+				# Range: 0 ~ 2
+				enabled = 0
+				#Maximum value in the grappling hook modifier before the limits upgrade.
+				# Default: 5.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				max = 5.0
+				#Maximum value in the grappling hook modifier after the limits upgrade.
+				# Default: 20.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				max_upgraded = 20.0
+				#Minimum value in the grappling hook modifier before the limits upgrade.
+				# Default: 0.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				min = 0.0
+				#Minimum value in the grappling hook modifier after the limits upgrade.
+				# Default: 0.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				min_upgraded = 0.0
+
+			[grapplinghook.custom.hookthrower.reelin]
+				#Value used when creating a new non-modified grappling hook.
+				default_value = true
+				#Whether this value can be changed in the grappling hook modifier: 0 = always enabled, 1 = enabled after limits upgrade, 2 = always disabled.
+				# Default: 0
+				# Range: 0 ~ 2
+				enabled = 0
+
+			[grapplinghook.custom.hookthrower.verticalthrowangle]
+				#Value used when creating a new non-modified grappling hook.
+				# Default: 0.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				default_value = 0.0
+				#Whether this value can be changed in the grappling hook modifier: 0 = always enabled, 1 = enabled after limits upgrade, 2 = always disabled.
+				# Default: 0
+				# Range: 0 ~ 2
+				enabled = 0
+				#Maximum value in the grappling hook modifier before the limits upgrade.
+				# Default: 45.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				max = 45.0
+				#Maximum value in the grappling hook modifier after the limits upgrade.
+				# Default: 90.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				max_upgraded = 90.0
+				#Minimum value in the grappling hook modifier before the limits upgrade.
+				# Default: 0.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				min = 0.0
+				#Minimum value in the grappling hook modifier after the limits upgrade.
+				# Default: 0.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				min_upgraded = 0.0
+
+			[grapplinghook.custom.hookthrower.sneakingverticalthrowangle]
+				#Value used when creating a new non-modified grappling hook.
+				# Default: 0.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				default_value = 0.0
+				#Whether this value can be changed in the grappling hook modifier: 0 = always enabled, 1 = enabled after limits upgrade, 2 = always disabled.
+				# Default: 0
+				# Range: 0 ~ 2
+				enabled = 0
+				#Maximum value in the grappling hook modifier before the limits upgrade.
+				# Default: 45.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				max = 45.0
+				#Maximum value in the grappling hook modifier after the limits upgrade.
+				# Default: 90.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				max_upgraded = 90.0
+				#Minimum value in the grappling hook modifier before the limits upgrade.
+				# Default: 0.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				min = 0.0
+				#Minimum value in the grappling hook modifier after the limits upgrade.
+				# Default: 0.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				min_upgraded = 0.0
+
+			[grapplinghook.custom.hookthrower.detachonkeyrelease]
+				#Value used when creating a new non-modified grappling hook.
+				default_value = false
+				#Whether this value can be changed in the grappling hook modifier: 0 = always enabled, 1 = enabled after limits upgrade, 2 = always disabled.
+				# Default: 0
+				# Range: 0 ~ 2
+				enabled = 0
+
+		#Motor upgrade behavior.
+		[grapplinghook.custom.motor]
+
+			[grapplinghook.custom.motor.motor]
+				#Value used when creating a new non-modified grappling hook.
+				default_value = false
+				#Whether this value can be changed in the grappling hook modifier: 0 = always enabled, 1 = enabled after limits upgrade, 2 = always disabled.
+				# Default: 0
+				# Range: 0 ~ 2
+				enabled = 0
+
+			[grapplinghook.custom.motor.motormaxspeed]
+				#Value used when creating a new non-modified grappling hook.
+				# Default: 4.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				default_value = 4.0
+				#Whether this value can be changed in the grappling hook modifier: 0 = always enabled, 1 = enabled after limits upgrade, 2 = always disabled.
+				# Default: 0
+				# Range: 0 ~ 2
+				enabled = 0
+				#Maximum value in the grappling hook modifier before the limits upgrade.
+				# Default: 4.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				max = 4.0
+				#Maximum value in the grappling hook modifier after the limits upgrade.
+				# Default: 10.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				max_upgraded = 10.0
+				#Minimum value in the grappling hook modifier before the limits upgrade.
+				# Default: 0.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				min = 0.0
+				#Minimum value in the grappling hook modifier after the limits upgrade.
+				# Default: 0.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				min_upgraded = 0.0
+
+			[grapplinghook.custom.motor.motoracceleration]
+				#Value used when creating a new non-modified grappling hook.
+				# Default: 0.2
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				default_value = 0.2
+				#Whether this value can be changed in the grappling hook modifier: 0 = always enabled, 1 = enabled after limits upgrade, 2 = always disabled.
+				# Default: 0
+				# Range: 0 ~ 2
+				enabled = 0
+				#Maximum value in the grappling hook modifier before the limits upgrade.
+				# Default: 0.2
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				max = 0.2
+				#Maximum value in the grappling hook modifier after the limits upgrade.
+				# Default: 1.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				max_upgraded = 1.0
+				#Minimum value in the grappling hook modifier before the limits upgrade.
+				# Default: 0.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				min = 0.0
+				#Minimum value in the grappling hook modifier after the limits upgrade.
+				# Default: 0.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				min_upgraded = 0.0
+
+			[grapplinghook.custom.motor.motorwhencrouching]
+				#Value used when creating a new non-modified grappling hook.
+				default_value = false
+				#Whether this value can be changed in the grappling hook modifier: 0 = always enabled, 1 = enabled after limits upgrade, 2 = always disabled.
+				# Default: 0
+				# Range: 0 ~ 2
+				enabled = 0
+
+			[grapplinghook.custom.motor.motorwhennotcrouching]
+				#Value used when creating a new non-modified grappling hook.
+				default_value = true
+				#Whether this value can be changed in the grappling hook modifier: 0 = always enabled, 1 = enabled after limits upgrade, 2 = always disabled.
+				# Default: 0
+				# Range: 0 ~ 2
+				enabled = 0
+
+			[grapplinghook.custom.motor.smartmotor]
+				#Value used when creating a new non-modified grappling hook.
+				default_value = false
+				#Whether this value can be changed in the grappling hook modifier: 0 = always enabled, 1 = enabled after limits upgrade, 2 = always disabled.
+				# Default: 0
+				# Range: 0 ~ 2
+				enabled = 0
+
+			[grapplinghook.custom.motor.motordampener]
+				#Value used when creating a new non-modified grappling hook.
+				default_value = false
+				#Whether this value can be changed in the grappling hook modifier: 0 = always enabled, 1 = enabled after limits upgrade, 2 = always disabled.
+				# Default: 1
+				# Range: 0 ~ 2
+				enabled = 1
+
+			[grapplinghook.custom.motor.pullbackwards]
+				#Value used when creating a new non-modified grappling hook.
+				default_value = true
+				#Whether this value can be changed in the grappling hook modifier: 0 = always enabled, 1 = enabled after limits upgrade, 2 = always disabled.
+				# Default: 0
+				# Range: 0 ~ 2
+				enabled = 0
+
+		#Swing movement settings.
+		[grapplinghook.custom.swing]
+
+			[grapplinghook.custom.swing.playermovementmult]
+				#Value used when creating a new non-modified grappling hook.
+				# Default: 1.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				default_value = 1.0
+				#Whether this value can be changed in the grappling hook modifier: 0 = always enabled, 1 = enabled after limits upgrade, 2 = always disabled.
+				# Default: 0
+				# Range: 0 ~ 2
+				enabled = 0
+				#Maximum value in the grappling hook modifier before the limits upgrade.
+				# Default: 2.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				max = 2.0
+				#Maximum value in the grappling hook modifier after the limits upgrade.
+				# Default: 5.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				max_upgraded = 5.0
+				#Minimum value in the grappling hook modifier before the limits upgrade.
+				# Default: 0.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				min = 0.0
+				#Minimum value in the grappling hook modifier after the limits upgrade.
+				# Default: 0.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				min_upgraded = 0.0
+
+		#Ender staff upgrade option.
+		[grapplinghook.custom.enderstaff]
+
+			[grapplinghook.custom.enderstaff.enderstaff]
+				#Value used when creating a new non-modified grappling hook.
+				default_value = false
+				#Whether this value can be changed in the grappling hook modifier: 0 = always enabled, 1 = enabled after limits upgrade, 2 = always disabled.
+				# Default: 0
+				# Range: 0 ~ 2
+				enabled = 0
+
+		#Forcefield upgrade options.
+		[grapplinghook.custom.forcefield]
+
+			[grapplinghook.custom.forcefield.repel]
+				#Value used when creating a new non-modified grappling hook.
+				default_value = false
+				#Whether this value can be changed in the grappling hook modifier: 0 = always enabled, 1 = enabled after limits upgrade, 2 = always disabled.
+				# Default: 0
+				# Range: 0 ~ 2
+				enabled = 0
+
+			[grapplinghook.custom.forcefield.repelforce]
+				#Value used when creating a new non-modified grappling hook.
+				# Default: 1.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				default_value = 1.0
+				#Whether this value can be changed in the grappling hook modifier: 0 = always enabled, 1 = enabled after limits upgrade, 2 = always disabled.
+				# Default: 0
+				# Range: 0 ~ 2
+				enabled = 0
+				#Maximum value in the grappling hook modifier before the limits upgrade.
+				# Default: 1.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				max = 1.0
+				#Maximum value in the grappling hook modifier after the limits upgrade.
+				# Default: 5.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				max_upgraded = 5.0
+				#Minimum value in the grappling hook modifier before the limits upgrade.
+				# Default: 0.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				min = 0.0
+				#Minimum value in the grappling hook modifier after the limits upgrade.
+				# Default: 0.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				min_upgraded = 0.0
+
+		#Magnet upgrade options.
+		[grapplinghook.custom.magnet]
+
+			[grapplinghook.custom.magnet.attract]
+				#Value used when creating a new non-modified grappling hook.
+				default_value = false
+				#Whether this value can be changed in the grappling hook modifier: 0 = always enabled, 1 = enabled after limits upgrade, 2 = always disabled.
+				# Default: 0
+				# Range: 0 ~ 2
+				enabled = 0
+
+			[grapplinghook.custom.magnet.attractradius]
+				#Value used when creating a new non-modified grappling hook.
+				# Default: 3.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				default_value = 3.0
+				#Whether this value can be changed in the grappling hook modifier: 0 = always enabled, 1 = enabled after limits upgrade, 2 = always disabled.
+				# Default: 0
+				# Range: 0 ~ 2
+				enabled = 0
+				#Maximum value in the grappling hook modifier before the limits upgrade.
+				# Default: 3.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				max = 3.0
+				#Maximum value in the grappling hook modifier after the limits upgrade.
+				# Default: 10.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				max_upgraded = 10.0
+				#Minimum value in the grappling hook modifier before the limits upgrade.
+				# Default: 0.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				min = 0.0
+				#Minimum value in the grappling hook modifier after the limits upgrade.
+				# Default: 0.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				min_upgraded = 0.0
+
+		#Double-hook upgrade options.
+		[grapplinghook.custom.doublehook]
+
+			[grapplinghook.custom.doublehook.doublehook]
+				#Value used when creating a new non-modified grappling hook.
+				default_value = false
+				#Whether this value can be changed in the grappling hook modifier: 0 = always enabled, 1 = enabled after limits upgrade, 2 = always disabled.
+				# Default: 0
+				# Range: 0 ~ 2
+				enabled = 0
+
+			[grapplinghook.custom.doublehook.smartdoublemotor]
+				#Value used when creating a new non-modified grappling hook.
+				default_value = true
+				#Whether this value can be changed in the grappling hook modifier: 0 = always enabled, 1 = enabled after limits upgrade, 2 = always disabled.
+				# Default: 0
+				# Range: 0 ~ 2
+				enabled = 0
+
+			[grapplinghook.custom.doublehook.angle]
+				#Value used when creating a new non-modified grappling hook.
+				# Default: 20.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				default_value = 20.0
+				#Whether this value can be changed in the grappling hook modifier: 0 = always enabled, 1 = enabled after limits upgrade, 2 = always disabled.
+				# Default: 0
+				# Range: 0 ~ 2
+				enabled = 0
+				#Maximum value in the grappling hook modifier before the limits upgrade.
+				# Default: 45.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				max = 45.0
+				#Maximum value in the grappling hook modifier after the limits upgrade.
+				# Default: 90.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				max_upgraded = 90.0
+				#Minimum value in the grappling hook modifier before the limits upgrade.
+				# Default: 0.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				min = 0.0
+				#Minimum value in the grappling hook modifier after the limits upgrade.
+				# Default: 0.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				min_upgraded = 0.0
+
+			[grapplinghook.custom.doublehook.sneakingangle]
+				#Value used when creating a new non-modified grappling hook.
+				# Default: 10.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				default_value = 10.0
+				#Whether this value can be changed in the grappling hook modifier: 0 = always enabled, 1 = enabled after limits upgrade, 2 = always disabled.
+				# Default: 0
+				# Range: 0 ~ 2
+				enabled = 0
+				#Maximum value in the grappling hook modifier before the limits upgrade.
+				# Default: 45.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				max = 45.0
+				#Maximum value in the grappling hook modifier after the limits upgrade.
+				# Default: 90.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				max_upgraded = 90.0
+				#Minimum value in the grappling hook modifier before the limits upgrade.
+				# Default: 0.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				min = 0.0
+				#Minimum value in the grappling hook modifier after the limits upgrade.
+				# Default: 0.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				min_upgraded = 0.0
+
+			[grapplinghook.custom.doublehook.oneropepull]
+				#Value used when creating a new non-modified grappling hook.
+				default_value = false
+				#Whether this value can be changed in the grappling hook modifier: 0 = always enabled, 1 = enabled after limits upgrade, 2 = always disabled.
+				# Default: 0
+				# Range: 0 ~ 2
+				enabled = 0
+
+		#Rocket upgrade options.
+		[grapplinghook.custom.rocket]
+
+			[grapplinghook.custom.rocket.rocketenabled]
+				#Value used when creating a new non-modified grappling hook.
+				default_value = false
+				#Whether this value can be changed in the grappling hook modifier: 0 = always enabled, 1 = enabled after limits upgrade, 2 = always disabled.
+				# Default: 0
+				# Range: 0 ~ 2
+				enabled = 0
+
+			[grapplinghook.custom.rocket.rocket_force]
+				#Value used when creating a new non-modified grappling hook.
+				# Default: 1.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				default_value = 1.0
+				#Whether this value can be changed in the grappling hook modifier: 0 = always enabled, 1 = enabled after limits upgrade, 2 = always disabled.
+				# Default: 0
+				# Range: 0 ~ 2
+				enabled = 0
+				#Maximum value in the grappling hook modifier before the limits upgrade.
+				# Default: 1.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				max = 1.0
+				#Maximum value in the grappling hook modifier after the limits upgrade.
+				# Default: 5.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				max_upgraded = 5.0
+				#Minimum value in the grappling hook modifier before the limits upgrade.
+				# Default: 0.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				min = 0.0
+				#Minimum value in the grappling hook modifier after the limits upgrade.
+				# Default: 0.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				min_upgraded = 0.0
+
+			[grapplinghook.custom.rocket.rocket_active_time]
+				#Value used when creating a new non-modified grappling hook.
+				# Default: 0.5
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				default_value = 0.5
+				#Whether this value can be changed in the grappling hook modifier: 0 = always enabled, 1 = enabled after limits upgrade, 2 = always disabled.
+				# Default: 0
+				# Range: 0 ~ 2
+				enabled = 0
+				#Maximum value in the grappling hook modifier before the limits upgrade.
+				# Default: 0.5
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				max = 0.5
+				#Maximum value in the grappling hook modifier after the limits upgrade.
+				# Default: 20.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				max_upgraded = 20.0
+				#Minimum value in the grappling hook modifier before the limits upgrade.
+				# Default: 0.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				min = 0.0
+				#Minimum value in the grappling hook modifier after the limits upgrade.
+				# Default: 0.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				min_upgraded = 0.0
+
+			[grapplinghook.custom.rocket.rocket_refuel_ratio]
+				#Value used when creating a new non-modified grappling hook.
+				# Default: 15.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				default_value = 15.0
+				#Whether this value can be changed in the grappling hook modifier: 0 = always enabled, 1 = enabled after limits upgrade, 2 = always disabled.
+				# Default: 0
+				# Range: 0 ~ 2
+				enabled = 0
+				#Maximum value in the grappling hook modifier before the limits upgrade.
+				# Default: 30.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				max = 30.0
+				#Maximum value in the grappling hook modifier after the limits upgrade.
+				# Default: 30.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				max_upgraded = 30.0
+				#Minimum value in the grappling hook modifier before the limits upgrade.
+				# Default: 15.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				min = 15.0
+				#Minimum value in the grappling hook modifier after the limits upgrade.
+				# Default: 1.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				min_upgraded = 1.0
+
+			[grapplinghook.custom.rocket.rocket_vertical_angle]
+				#Value used when creating a new non-modified grappling hook.
+				# Default: 0.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				default_value = 0.0
+				#Whether this value can be changed in the grappling hook modifier: 0 = always enabled, 1 = enabled after limits upgrade, 2 = always disabled.
+				# Default: 0
+				# Range: 0 ~ 2
+				enabled = 0
+				#Maximum value in the grappling hook modifier before the limits upgrade.
+				# Default: 90.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				max = 90.0
+				#Maximum value in the grappling hook modifier after the limits upgrade.
+				# Default: 90.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				max_upgraded = 90.0
+				#Minimum value in the grappling hook modifier before the limits upgrade.
+				# Default: 0.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				min = 0.0
+				#Minimum value in the grappling hook modifier after the limits upgrade.
+				# Default: 0.0
+				# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+				min_upgraded = 0.0
+
+	#Block filtering for grapple attach and break behavior.
+	[grapplinghook.blocks]
+		#Whitelist of blocks the hook can attach to (comma-separated IDs, or 'any').
+		grapplingBlocks = "any"
+		#Blacklist of blocks the hook cannot attach to (comma-separated IDs, or 'none').
+		grapplingNonBlocks = "none"
+		#Blocks the hook should break when hit (comma-separated IDs, or 'none').
+		grappleBreakBlocks = "none"
+
+	#General grappling hook tuning values.
+	[grapplinghook.other]
+		#If true, hooks can affect entities.
+		hookaffectsentities = true
+		#Extra allowed rope stretch before snapping.
+		# Default: 5.0
+		# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+		rope_snap_buffer = 5.0
+		#Default grappling hook durability.
+		# Default: 500
+		# Range: > 1
+		default_durability = 500
+		#Maximum jump speed when jumping off rope.
+		# Default: 1.0
+		# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+		rope_jump_power = 1.0
+		#Jump in rope direction instead of straight up.
+		rope_jump_at_angle = false
+		#Cooldown in seconds between rope jumps.
+		# Default: 0.0
+		# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+		rope_jump_cooldown_s = 0.0
+		#Rope climb speed.
+		# Default: 0.3
+		# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+		climb_speed = 0.3
+
+#Long fall boots options.
+[longfallboots]
+	#Allow crafting long fall boots in the modifier block.
+	longfallbootsrecipe = true
+
+#Ender staff tuning.
+[enderstaff]
+	#Launch strength of the ender staff.
+	# Default: 1.5
+	# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	ender_staff_strength = 1.5
+	#Recharge time for ender staff in ticks.
+	# Default: 100
+	# Range: > 0
+	ender_staff_recharge = 100
+
+#Movement enchantment tuning values.
+[enchantments]
+
+	#Wallrun enchantment settings.
+	[enchantments.wallrun]
+		#Upward speed when jumping off a wall.
+		# Default: 0.7
+		# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+		wall_jump_up = 0.7
+		#Sideways speed when jumping off a wall.
+		# Default: 0.4
+		# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+		wall_jump_side = 0.4
+		#Maximum wallrun duration in seconds.
+		# Default: 3.0
+		# Range: 0.0 ~ 1.7976931348623157E308
+		max_wallrun_time = 3.0
+		#Wallrun acceleration.
+		# Default: 0.1
+		# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+		wallrun_speed = 0.1
+		#Maximum wallrun speed.
+		# Default: 0.7
+		# Range: 0.0 ~ 1.7976931348623157E308
+		wallrun_max_speed = 0.7
+		#Wallrun drag.
+		# Default: 0.01
+		# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+		wallrun_drag = 0.01
+		#Minimum speed required to start wallrunning.
+		# Default: 0.0
+		# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+		wallrun_min_speed = 0.0
+
+	#Double-jump enchantment settings.
+	[enchantments.doublejump]
+		#Vertical boost applied by double jump.
+		# Default: 0.8
+		# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+		doublejumpforce = 0.8
+		#Keep vertical momentum when double jumping.
+		doublejump_relative_to_falling = false
+		#Block double jump if falling faster than this speed.
+		# Default: 9.9999999E7
+		# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+		dont_doublejump_if_falling_faster_than = 9.9999999E7
+
+	#Sliding enchantment settings.
+	[enchantments.slide]
+		#Vertical boost when jumping from a slide.
+		# Default: 0.6
+		# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+		slidingjumpforce = 0.6
+		#Sliding friction.
+		# Default: 0.006666666828095913
+		# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+		sliding_friction = 0.006666666828095913
+		#Minimum speed to start sliding.
+		# Default: 0.15
+		# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+		sliding_min_speed = 0.15
+		#Minimum speed to keep sliding.
+		# Default: 0.01
+		# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+		sliding_end_min_speed = 0.01
+
+#Miscellaneous server-side grappling settings.
+[other]
+	#Automatically enable allow-flight on the server.
+	override_allowflight = true
+	#Maximum mid-air movement speed while grapple control is active.
+	# Default: 0.7
+	# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	airstrafe_max_speed = 0.7
+	#Mid-air movement acceleration while grapple control is active.
+	# Default: 0.015
+	# Range: -1.7976931348623157E308 ~ 1.7976931348623157E308
+	airstrafe_acceleration = 0.015
+	#Disable grapple movement override while in air.
+	dont_override_movement_in_air = false
